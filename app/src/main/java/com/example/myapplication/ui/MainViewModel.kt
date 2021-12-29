@@ -17,7 +17,7 @@ class MainViewModel @Inject constructor(private val api: ApiService) :
     private var pagingSource: MovieDatSource? = null
 
     val flow = Pager(
-        // Configure how data is loaded by passing additional properties to
+        // Configure how data is loaded by passing additional properties  
         // PagingConfig, such as prefetchDistance.
         PagingConfig(pageSize = 20)
     ) {
